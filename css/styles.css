@@ -51,6 +51,11 @@ header .wrapper{
     height: 650px;
 }
 
+.contenu{
+    background: #222;
+    color: #fff;
+}
+
 .conteneur{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
