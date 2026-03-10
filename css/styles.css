@@ -30,17 +30,23 @@ ul{
 /* ÉLÉMENTS TYPOGRAPHIQUES */
 
 /* COMPOSANTS */
-.header.wrappper{
+.header{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: red;
 }
 
 .menu{
-   display: flex;
+
 }
 
 .hero{
     background: url(../images/hero.jpg) no-repeat center center/cover;
+}
+
+.conteneur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
