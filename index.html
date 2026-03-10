@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js">defer</script>
@@ -19,7 +23,7 @@
 <body>
     <header>
         <div class="wrapper">
-            <a href="index.html" class="logo" alt="logo">GROS VÉLOS</a>
+            <a href="index.html" class="logo">GROS VÉLOS</a>
             <nav class="menu">
                 <ul>
                     <li><a href="#">MODÈLES</a></li>
@@ -28,7 +32,7 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-            <a href="#" class="billeterie">BILLETS</a>
+            <button class="billeterie">BILLETS</button>
         </div>
     </header>
     
@@ -43,23 +47,44 @@
     </section>
 
     <section class="contenu">
-        <h2>NOS CIRCUITS FAT BIKE</h2>
-        <p>Pensés pour tous les niveaux et toutes les envies, nos parcours vous offrent des expériences variées au cœur de paysages hivernaux exceptionnels. Adrénaline, défi technique ou balade contemplative — il y a un circuit pour vous.</p>
-        <div class="conteneur">
-            <article>
-                <img src="images/descente.jpg" alt="descente">
-                <h3></h3>
-                <p></p>
-            </article>
-            <article>
-                <h3></h3>
-                <p></p>
-            </article>
-            <article>
-                <h3></h3>
-                <p></p>
-            </article>
+        <div class="wrapper">
+            <h2>NOS CIRCUITS FAT BIKE</h2>
+            <p>Pensés pour tous les niveaux et toutes les envies, nos parcours vous offrent des expériences variées au cœur de paysages hivernaux exceptionnels. Adrénaline, défi technique ou balade contemplative — il y a un circuit pour vous.</p>
+
+            <div class="conteneur">
+                <article>
+                    <img src="images/descente.jpg" alt="descente">
+                        <h3>DESCENTE</h3>
+                        <p>Partez à la découverte de sentiers sinueux à travers la forêt enneigée. Idéal pour améliorer votre endurance tout en profitant pleinement de la nature.</p>
+                        <button class="bouton">EN SAVOIR PLUS</button>
+                </article>
+                <article>
+                    <img src="images/crosscountry.jpg" alt="crosscountry">
+                        <h3>CROSS-COUNTRY</h3>
+                        <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations fortes.</p>
+                        <button class="bouton">EN SAVOIR PLUS</button>
+                </article>
+                <article>
+                    <img src="images/acrobatique.jpg" alt="acrobatique">
+                        <h3>ACROBATIQUE</h3>
+                        <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations fortes.</p>
+                        <button class="bouton">EN SAVOIR PLUS</button>
+                </article>
+            </div>
         </div>
     </section>
+
+    <footer>
+        <div class="wrapper">
+            <ul>
+                <li><a href="#"><span class="material-symbols-outlined">directions_bike</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">snowflake</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">group</span></a></li>
+            </ul>
+            <p>Tous droits réservés © 2026 — Gros Vélo</p>
+        </div>
+    </footer>
+
+    <div class="modale"></div>
 </body>
 </html>

@@ -1,0 +1,46 @@
+/* GÉNÉRIQUE */
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/* BASE */
+body{
+    font: Raleway, Robot, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrappper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ÉLÉMENTS TYPOGRAPHIQUES */
+
+/* COMPOSANTS */
+.header.wrappper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.menu{
+   display: flex;
+}
+
+.hero{
+    background: url(../images/hero.jpg) no-repeat center center/cover;
+}
